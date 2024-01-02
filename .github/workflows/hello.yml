@@ -13,9 +13,9 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello World!"
-      - name: Now it is time to say goodbye
+      - name: Now it is
         run: |
-          echo date
+          date
       - name: Directory content
         run: |
-          echo ls
+          ls
